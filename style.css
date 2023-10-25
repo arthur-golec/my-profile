@@ -1,0 +1,135 @@
+/*Colors and Fonts*/
+
+body {
+  background-color: #202020;
+  color: #FFFFFF;
+  font-family:'Work Sans', sans-serif;;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 2,5px;
+  text-align: center;
+
+  }
+
+h1,h2,h3{
+  font-family: 'Inknut Antiqua', serif;
+
+}
+
+h2 {
+  color: #FFFFFF;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 24px;
+
+}
+
+a{
+  text-decoration: none;
+  color: #9A7E43;
+}
+
+a:hover {
+  color:#846F43 ;
+}
+
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+.text-justify {
+  text-align: center;
+
+}
+
+
+
+.container {
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px #9A7E43;
+  margin: 5px auto;
+}
+
+
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container h1 {
+  margin-bottom: 0 auto;
+}
+.container p {
+  line-height: 1.4;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+
+.btn-color{
+  background-color:#9A7E43 ;
+  color:#FFFFFF;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: px;
+}
+
+
+
+ul.list-inline{
+  font-size: 50px;
+  list-style: none;
+
+}
+.list-inline li{
+  display: inline;
+}
+.list-inline i{
+  font-size: 50px;
+}
+
+
+.description{
+  max-width: 600px;
+  margin:  30px auto;
+  padding: 45px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px #9A7E43;
+}
+.site{
+  font-size: 30px;
+  list-style-type: none;
+  }
+
+.container1{
+  width: 700px;
+  margin: 25px auto;
+  padding: 50px;
+}
+@media (max-width: 760px) {
+  .container1{
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container1{
+    width: 400px;
+
+  }
+}
